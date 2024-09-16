@@ -35,7 +35,7 @@ nav ul  li a:before{
     width:100%;
     background:#fff;
     transform: scaleX(0);
-    transform-origin:right;
+    transform-origin:left;
     transition:transform .7s linear;
     
     
@@ -43,7 +43,7 @@ nav ul  li a:before{
     
 }
 
-nav ul  li a:hover:before{
+ nav ul  li a:hover:before{
     transform: scaleX(1);
     transform-origin:left;
    
@@ -95,4 +95,5 @@ label{
     #check:checked ~label i::before{
         content:'\f00d';
     }
+    
 }
